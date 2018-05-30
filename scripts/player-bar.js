@@ -14,8 +14,10 @@
     const nextSong = album.songs[nextSongIndex];
     player.playPause(nextSong);
   });
+//
+}
 
-  //assignment
+//assignment
   $('button#previous').on('click', function(){
     if (player.playState !== 'playing') { return; }
 
