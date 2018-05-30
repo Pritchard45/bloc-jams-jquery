@@ -14,5 +14,5 @@
     const nextSong = album.songs[nextSongIndex];
     player.playPause(nextSong);
   });
-
+//merging with assignement
 }
