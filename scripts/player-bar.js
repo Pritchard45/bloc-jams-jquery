@@ -1,3 +1,7 @@
+
+
+//checkpointwork
+
 {
   $('button#play-pause').on('click', function() {
     player.playPause();
@@ -14,12 +18,9 @@
     const nextSong = album.songs[nextSongIndex];
     player.playPause(nextSong);
   });
-<<<<<<< HEAD
-//merging with assignement
+
 }
-=======
-//
-}
+{
 
 //assignment
   $('button#previous').on('click', function(){
@@ -34,4 +35,4 @@
     player.playPause(previousSong);
 
   });
->>>>>>> assignment
+}
