@@ -14,14 +14,9 @@
     const nextSong = album.songs[nextSongIndex];
     player.playPause(nextSong);
   });
-<<<<<<< HEAD
-//merging with assignement
-}
-=======
-//
-}
 
-//assignment
+
+
   $('button#previous').on('click', function(){
     if (player.playState !== 'playing') { return; }
 
@@ -34,4 +29,5 @@
     player.playPause(previousSong);
 
   });
->>>>>>> assignment
+
+}
