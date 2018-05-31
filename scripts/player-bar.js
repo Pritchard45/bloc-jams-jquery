@@ -18,17 +18,11 @@
     const nextSong = album.songs[nextSongIndex];
     player.playPause(nextSong);
   });
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
-
+  //skip to
   $('#time-control input').on('input', function (event){
     player.skipTo(event.target.value);
   });
-
+//checkpoint interval
   setInterval( () => {
     if (player.playState !== 'playing') { return; }
     const currentTime = player.getTime();
@@ -37,8 +31,8 @@
     $('#time-control .current-time').text( currentTime );
     $('#time-control input').val(percent);
   }, 1000);
->>>>>>> sliders
-  //assignment
+
+  //assignment previous buttons
     $('button#previous').on('click', function(){
       if (player.playState !== 'playing') { return; }
 
@@ -52,8 +46,3 @@
 
     });
 //both buttons work.
->>>>>>> assignment
-=======
-
->>>>>>> next-b
-}
